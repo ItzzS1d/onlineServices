@@ -1,0 +1,90 @@
+@media screen and (max-width: 1096px) {
+  .section1 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .info h1 {
+    font-size: 3rem;
+  }
+
+  .article1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+
+  .section3 {
+    display: none;
+  }
+
+  .lol {
+    flex-direction: column;
+    margin-left: 180px;
+  }
+
+  .section6-card-container {
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  .section6-card {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+ 
+
+ 
+
+
+}
+
+@media screen and (max-width: 825px) {
+  .lol {
+    margin-left: 40px;
+  }
+
+  
+
+  
+}
+
+@media screen and (max-width: 524px) {
+  .info h1 {
+    font-size: 2rem;
+  }
+
+  .article1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ 
+
+  .lol {
+    margin-left: 0px;
+    /* margin-bottom: 200px; */
+  }
+
+  .card-container {
+    gap: 150px;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-video {
+    width: 25rem;
+  }
+
+ 
+
+  
+}
